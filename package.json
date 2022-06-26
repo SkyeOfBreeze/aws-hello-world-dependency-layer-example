@@ -1,0 +1,20 @@
+{
+  "name": "hello-world",
+  "version": "1.0.0",
+  "description": "This project contains source code and supporting files for a serverless application that you can deploy with the SAM CLI. It includes the following files and folders.",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "test": "mocha tests/unit/",
+    "build": "sam build && node ./buildDependencies && sam deploy"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fs-extra": "^10.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4"
+  },
+  "license": "MIT"
+}
